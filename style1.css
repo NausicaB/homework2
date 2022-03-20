@@ -1,0 +1,81 @@
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+.heading {
+    background-color: rgb(240, 238, 238);
+    padding: 50px 50px 50px 200px;
+    margin: 25px;
+}
+
+.heading1 {
+    font-size: 50px;
+    margin-right: 10px;
+    color: #2e2d2d;
+}
+
+.heading2 {
+    font-size: 35px;
+    color: rgb(150, 150, 150);
+}
+
+.parent1 {
+    display: flex;
+    background-color: rgb(247, 244, 244);
+    border: 2px solid rgb(236, 233, 233);
+    border-radius: 4px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+}
+
+.form {
+    margin-right: 10px;
+    padding: 0 20px 20px 10px;
+}
+
+#name, #email, #subject, #message {
+    color: rgb(175, 175, 175);
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+}
+
+input {
+    width: 300px;
+}
+
+.label {
+    font-size: small;
+    font-weight: bold;
+}
+
+.button{
+    color: white;
+    background-color: rgb(76 149 208);
+    padding: 7px 7px;
+    font-size: smaller;
+    border-radius: 3px;
+    width: 90px;
+    float: right;
+    margin-bottom: 7px;
+}
+
+.parent2 {
+    text-align: center; 
+}
+
+hr {
+    background-color: rgb(228, 227, 227);
+    width: 25%;
+    border-width: 1px;
+}
+
+a {
+    font-size: small;
+    text-decoration: none;
+    color: #189bd6;
+}
